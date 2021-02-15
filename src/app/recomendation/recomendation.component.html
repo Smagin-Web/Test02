@@ -1,0 +1,31 @@
+<div class="container">
+  <h4 class="recomendation__title">Buy with this product</h4>
+</div>
+
+
+<div class="recomendation-container" #wrapper>
+  <div class="recomendation" #container>
+    <div class="prod-card" *ngFor="let prodCard of prodCards">
+      <div class="prod-card__header">
+        <div class="prod-card__like-widget"></div>
+      </div>
+      <div class="prod-card__visual">
+        <div class="prod-card__photo-bg"></div>
+      </div>
+      <div class="prod-card__title">Best-in 10 British<br> Big Eggs</div>
+      <div class="prod-card__info-price">1 pc / £1.59</div>
+      <div class="prod-card__prod-menu">
+        <div class="prod-card__main-price">£1.59</div>
+        <div class="prod-card__actions">
+          <div class="prod-card__delete">
+            <div class="prod-card__delete-bg-svg"></div>
+          </div>
+          <div class="prod-card__quantity">2</div>
+          <div class="prod-card__plus">
+            <div class="prod-card__plus-bg-svg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

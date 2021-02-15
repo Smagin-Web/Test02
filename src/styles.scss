@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'styles/card-prod-styles';
+
+*, *:hover, *:before {
+  box-sizing: border-box;
+}
+
+//
+//* {
+//  margin: 0;
+//  padding: 0;
+//  border: 0;
+//  border-radius: 0;
+//  outline: none;
+//}
+
+body {
+  overflow-x: hidden;
+  background: #f5f4f2;
+}
+
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 0 24px;
+}

@@ -1,0 +1,14 @@
+// Slider
+::ng-deep .owl-dot {
+  & span {
+    height: 6px !important;
+    width: 6px !important;
+    margin: 5px 2px !important;
+    transition: .2s !important;
+    background-color: #CCCCCC !important;
+  }
+  &.active span {
+    width: 17px !important;
+    background-color: #333333 !important;
+  }
+}
